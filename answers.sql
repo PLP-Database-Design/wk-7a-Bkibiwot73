@@ -44,7 +44,7 @@ CREATE TABLE OrderItems (
 
 -- Insert data into OrderItems table
 -- Each row represents a product and its quantity for a specific order
-INSERT INTO OrderDetails (OrderID, Product, Quantity) VALUES
+INSERT INTO OrderItems (OrderID, Product, Quantity) VALUES
 (101, 'Laptop', 2),
 (101, 'Mouse', 1),
 (102, 'Tablet', 3),
